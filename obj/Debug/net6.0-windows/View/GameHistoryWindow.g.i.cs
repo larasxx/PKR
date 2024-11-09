@@ -60,7 +60,7 @@ namespace PKR.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PKR;component/view/gamehistorywindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PKR;V1.0.0.0;component/view/gamehistorywindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\GameHistoryWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
